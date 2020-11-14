@@ -1,0 +1,24 @@
+{
+  "name": "toby-spring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "doc": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinwoojimmy/toby-spring.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinwoojimmy/toby-spring/issues"
+  },
+  "homepage": "https://github.com/jinwoojimmy/toby-spring#readme",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  }
+}
