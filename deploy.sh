@@ -13,6 +13,6 @@ git init
 git add -A
 git commit -m 'deploy with vuepress'
 
-git push -f https://github.com/jinwoojimmy/toby-study.git master:gh-pages
+git push -f https://github.com/jinwoojimmy/toby-spring.git master:gh-pages
 
 cd -
