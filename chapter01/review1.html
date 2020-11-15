@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>2020.11.09 (월) 1회 스터디 나눈 점 정리 | Toby&#39;s Spring Study</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/toby-spring/assets/css/0.styles.568da5b2.css" as="style"><link rel="preload" href="/toby-spring/assets/js/app.aa81a604.js" as="script"><link rel="preload" href="/toby-spring/assets/js/2.36153d76.js" as="script"><link rel="preload" href="/toby-spring/assets/js/9.699853b8.js" as="script"><link rel="prefetch" href="/toby-spring/assets/js/10.8636b5c2.js"><link rel="prefetch" href="/toby-spring/assets/js/3.e48d6748.js"><link rel="prefetch" href="/toby-spring/assets/js/4.09fd2c39.js"><link rel="prefetch" href="/toby-spring/assets/js/5.fc791712.js"><link rel="prefetch" href="/toby-spring/assets/js/6.ffe6f60a.js"><link rel="prefetch" href="/toby-spring/assets/js/7.8086ff20.js"><link rel="prefetch" href="/toby-spring/assets/js/8.d2ab7659.js">
+    <link rel="stylesheet" href="/toby-spring/assets/css/0.styles.568da5b2.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/toby-spring/" class="home-link router-link-active"><!----> <span class="site-name">Toby's Spring Study</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/toby-spring/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/toby-spring/sample.html" class="nav-link">
+  Sample
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/toby-spring/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/toby-spring/sample.html" class="nav-link">
+  Sample
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/toby-spring/chapter01/" aria-current="page" class="sidebar-link">chapter1(오브젝트와 의존관계)</a></li><li><a href="/toby-spring/chapter02/" class="sidebar-link">chapter2(테스트)</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="_2020-11-09-월-1회-스터디-나눈-점-정리"><a href="#_2020-11-09-월-1회-스터디-나눈-점-정리" class="header-anchor">#</a> 2020.11.09 (월) 1회 스터디 나눈 점 정리</h1> <h1 id="느낀-점-새롭게-알게-된-점"><a href="#느낀-점-새롭게-알게-된-점" class="header-anchor">#</a> &lt;느낀 점, 새롭게 알게 된 점&gt;</h1> <ul><li>현우님 질문) 이렇게 딥하게 알면 어떤 장점이 있을까?
+<ul><li>기본 설정</li></ul></li> <li>현우님 질문2) 리소스 해제하는 부분 statement 분리는 어떻게 할 수 있을까?
+<ul><li>mybatis의 경우 XML에서의 쿼리 작성으로 분리도 가능.</li></ul></li> <li>다경님 인상적 공유)
+<ul><li>런타임시 의존관계 설정에서 오브젝트간의 연관관계</li> <li>&quot;높은 응집도 &lt; 낮은 결합도&quot;</li></ul></li> <li>혁진님 인상적 공유)
+<ul><li>스프링의 기반이 되는 것들이 앞으로 나온 것에 대해 인상적이었다.</li> <li>모든 부분에서 테스트 코드가 있어서, 전반적으로 객체지향 프로그래밍할 때, 토비의 1-7장을 읽으면 좋겠구나 느낌!</li> <li>스프링 성공 요인 : '베스트 프랙티스 적용'. 세월이 지나면서, 기본을 잊고 생산성에 중점을 두니까 요즘 아쉬운 듯 // 토비님은 어노테이션 암기 방식으로 되어버린게 아쉽다고 했다.</li> <li>태호님 왈 : 스프링 코어가 변하지 않는 핵심.</li> <li>IoC vs DI : IoC 는 제어 역전 방대한 개념, DI는 혼동을 줄이기 위해 만든 용어.
+Service Locator 패턴 : 안티패턴이나 OM에서 사용... IoC 컨테이너가 DI컨테이너를 포함하고 있는 거 같다(동일하진 않다).
+IoC컨테이너 방식에 DI컨테이너 방식, ServiceLocator 방식 두 가지 있다.</li></ul></li> <li>재휘님 공유)
+<ul><li>어플리케이션 컨텍스트가 여러 개 생성되는 것 책에서 언급... 실무에서 이런 적 있나? 어떤 경우에 그런가? 재휘님 숙제</li> <li>&quot;if문이 들어가는 위치에는 원래, 역할이 있는 클래스가 들어가야 한다.&quot;</li></ul></li> <li>성효님 공유)
+<ul><li>전략 패턴 ;</li> <li>JDBC Close 내부 소스 까봤다.
+<ul><li>resultSet같은 경우는 상위에 OracleResultSet이 있고, 그 위의 connection null처리 하고~~
+userSession close // 여러 session set에서 하나의 session을 제거</li></ul></li> <li>기억에 남은 것 : 라이브러리 vs 프레임워크 차이
+<ul><li>라이브러리는 흐름 제어, 프레임워크는 프레임워크 자체가 어플리케이션 코드 자체를 사용한다.</li></ul></li></ul></li> <li>혜진님 공유)
+<ul><li>템플릿 메소드 패턴 vs 팩토리 메소드</li></ul></li></ul> <h1 id="핵심-질문들"><a href="#핵심-질문들" class="header-anchor">#</a> &lt;핵심 질문들&gt;</h1> <ul><li>라이브러리 vs 프레임워크 차이</li> <li>IoC DI 설명하기</li> <li>디자인 패턴 설명하기</li> <li>SOLID</li></ul> <h1 id="다음주까지"><a href="#다음주까지" class="header-anchor">#</a> &lt;다음주까지..&gt;</h1> <ul><li>1장 끝까지 읽기</li> <li>다음 주는 재휘님 발표 ㅎㅎ
+<ul><li><ul><li>어플리케이션 컨텍스트가 여러 개 생성되는 것 책에서 언급... 실무에서 이런 적 있나? 어떤 경우에 그런가?</li></ul></li></ul></li></ul></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/toby-spring/assets/js/app.aa81a604.js" defer></script><script src="/toby-spring/assets/js/2.36153d76.js" defer></script><script src="/toby-spring/assets/js/9.699853b8.js" defer></script>
+  </body>
+</html>
